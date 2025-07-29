@@ -57,16 +57,23 @@ public class Person {
 ```csharp
 public static void Main() {
     Console.WriteLine("Hello World");
+}
 ```
 
 #### Task lists
 - [ ] This is a list item
+- [x] This is a finished item
+- [x] This is a finished item
 - [x] This is a finished item
 
 #### Tables
 
 Name  | Street |  Town
 ------|--------|-------
+Cathy | Main St | Birmingham
+John | Maple Dr | Wolverhampton
+Cathy | Main St | Birmingham
+John | Maple Dr | Wolverhampton
 Cathy | Main St | Birmingham
 John | Maple Dr | Wolverhampton
 
