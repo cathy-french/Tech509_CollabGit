@@ -48,7 +48,7 @@ https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 public class Person {
     private String name;
     private int age;
-
+    private String jobTitle
     private String nickName;
     public int getAge() {
         return age;
@@ -58,6 +58,9 @@ public class Person {
     }
      public String getNickName() {
         return this.nickName;
+    }
+    public String getJobTitle() {
+        return this.jobTitle;
     }
 }
 ```
