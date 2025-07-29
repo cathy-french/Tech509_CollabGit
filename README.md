@@ -50,9 +50,18 @@ This is a really good section
 ```java
 public class Person {
     private int age;
+    private String gender;
     private String nickName;
     public int getAge() {
-        return age;
+        return this.age;
+    }
+    public String getName()
+    {
+        return this.name;
+    }
+    public String getGender()
+    {
+        return this.gender;
     }
     public void setNickName(String newNickName) {
         this.nickName = newNickName;
