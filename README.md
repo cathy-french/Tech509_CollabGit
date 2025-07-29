@@ -23,6 +23,7 @@ __Bold but only *partly* italic__
 
 * this is an lis
 * with some items in it
+* I've added another item
 
 - or you can use a dash
 - to make a list 
@@ -45,10 +46,16 @@ https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
 ```java
 public class Person {
-    private String name;
     private int age;
-    public int getAgeee() {
+    private String nickName;
+    public int getAge() {
         return age;
+    }
+    public void setNickName(String newNickName) {
+        this.nickName = newNickName;
+    }
+     public String getNickName() {
+        return this.nickName;
     }
 }
 ```
