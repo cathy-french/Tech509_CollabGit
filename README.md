@@ -5,7 +5,7 @@ This is plain text
 
 ### This is a h3 header
 
-###### This is an h6 header
+###### This is an h6 headerrr
 
 *This is italic text*
 
@@ -21,7 +21,7 @@ __Bold but only *partly* italic__
 >> This is the subordinate part
 > 
 
-* this is an list
+* this is an lis
 * with some items in it
 
 - or you can use a dash
@@ -47,7 +47,7 @@ https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 public class Person {
     private String name;
     private int age;
-    public int getAge() {
+    public int getAgeee() {
         return age;
     }
 }
@@ -59,7 +59,7 @@ public static void Main() {
 ```
 
 #### Task lists
-- [ ] This is a list item
+- [ ] This is a list 
 - [x] This is a finished item
 
 #### Tables
@@ -67,7 +67,7 @@ public static void Main() {
 Name  | Street |  Town
 ------|--------|-------
 Cathy | Main St | Birmingham
-John | Maple Dr | Wolverhampton
+John | Maple Dr | Nottingham
 
 #### Mermaid
 
@@ -75,7 +75,7 @@ John | Maple Dr | Wolverhampton
 pie title smartphoneUsers
     "iPhone" : 60
     "Samsung" : 30
-    "Others" : 10
+    "Others" : 13
 ```
 
 
