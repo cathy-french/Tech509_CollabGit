@@ -55,12 +55,13 @@ public class Person {
 
 ```csharp
 public static void Main() {
-    Console.WriteLine("Hello World");
+    Console.WriteLine("Hello World"); //prints hello world
 ```
 
 #### Task lists
 - [ ] This is a list item
 - [x] This is a finished item
+- [x] [ ] This is checked box next to an unchecked box O: 
 
 #### Tables
 
