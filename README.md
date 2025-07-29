@@ -48,12 +48,16 @@ https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 public class Person {
     private String name;
     private int age;
+
     private String nickName;
     public int getAge() {
         return age;
     }
     public void setNickName(String newNickName) {
         this.nickName = newNickName;
+    }
+     public String getNickName() {
+        return this.nickName;
     }
 }
 ```
