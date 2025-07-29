@@ -50,6 +50,9 @@ This is a really good section
 ```java
 public class Person {
     private int age;
+
+    private String jobTitle
+
     private String nickName;
     public int getAge() {
         return age;
@@ -59,6 +62,9 @@ public class Person {
     }
      public String getNickName() {
         return this.nickName;
+    }
+    public String getJobTitle() {
+        return this.jobTitle;
     }
 }
 ```
