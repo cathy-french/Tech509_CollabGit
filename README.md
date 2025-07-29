@@ -31,6 +31,7 @@ __Bold but only *partly* italic__
 - 
 Numbered lists:
 1. Part 1
+2. Part 2
 3. Part 3
 4. Part 4
 
@@ -63,10 +64,13 @@ public class Person {
 ```csharp
 public static void Main() {
     Console.WriteLine("Hello World");
+}
 ```
 
 #### Task lists
 - [ ] This is a list 
+- [x] This is a finished item
+- [x] This is a finished item
 - [x] This is a finished item
 
 #### Tables
@@ -74,6 +78,11 @@ public static void Main() {
 Name  | Street |  Town
 ------|--------|-------
 Cathy | Main St | Birmingham
+John | Maple Dr | Wolverhampton
+Cathy | Main St | Birmingham
+John | Maple Dr | Wolverhampton
+Cathy | Main St | Birmingham
+John | Maple Dr | Wolverhampton
 John | Maple Dr | Nottingham
 
 #### Mermaid
@@ -89,4 +98,6 @@ pie title smartphoneUsers
 - New list item1
 - New list item2
 - New list item3
+
+ HESAM WAS HERE
 
