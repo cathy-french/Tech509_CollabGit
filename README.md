@@ -47,12 +47,17 @@ https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 public class Person {
     private String name;
     private int age;
+    private String gender;
     public int getAge() {
-        return age;
+        return this.age;
     }
     public String getName()
     {
-        
+        return this.name;
+    }
+    public String getGender()
+    {
+        return this.gender;
     }
 }
 ```
