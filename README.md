@@ -5,7 +5,7 @@ This is plain text
 
 ### This is a h3 header
 
-###### This is an h6 header
+###### This is an h6 headerrr
 
 *This is italic text*
 
@@ -21,8 +21,9 @@ __Bold but only *partly* italic__
 >> This is the subordinate part
 > 
 
-* this is an list
+* this is an lis
 * with some items in it
+* I've added another item
 
 - or you can use a dash
 - to make a list 
@@ -46,10 +47,16 @@ https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
 ```java
 public class Person {
-    private String name;
     private int age;
+    private String nickName;
     public int getAge() {
         return age;
+    }
+    public void setNickName(String newNickName) {
+        this.nickName = newNickName;
+    }
+     public String getNickName() {
+        return this.nickName;
     }
 }
 ```
@@ -61,7 +68,7 @@ public static void Main() {
 ```
 
 #### Task lists
-- [ ] This is a list item
+- [ ] This is a list 
 - [x] This is a finished item
 - [x] This is a finished item
 - [x] This is a finished item
@@ -76,6 +83,7 @@ Cathy | Main St | Birmingham
 John | Maple Dr | Wolverhampton
 Cathy | Main St | Birmingham
 John | Maple Dr | Wolverhampton
+John | Maple Dr | Nottingham
 
 #### Mermaid
 
@@ -83,9 +91,13 @@ John | Maple Dr | Wolverhampton
 pie title smartphoneUsers
     "iPhone" : 60
     "Samsung" : 30
-    "Others" : 10
+    "Others" : 13
 ```
 
+#### Peter's Edit
+- New list item1
+- New list item2
+- New list item3
 
  HESAM WAS HERE
 
